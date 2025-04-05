@@ -1,4 +1,4 @@
-import { Typography, Box, useTheme } from "@material-ui/core";
+import { Typography, Box, useTheme } from "@mui/material"; // Updated import for Material-UI v5
 import { tokens } from "../theme";
 
 const Header = ({ title, subtitle }) => {
@@ -20,7 +20,6 @@ const Header = ({ title, subtitle }) => {
       </Typography>
     </Box>
   );
-}
-;
+};
 
 export default Header;
